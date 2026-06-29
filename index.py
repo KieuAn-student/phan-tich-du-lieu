@@ -44,7 +44,7 @@ print("="*60)
 print("KÍCH THƯỚC DỮ LIỆU")
 print("="*60)
 
-print(df.shape)
+print(df.shape) #--- kiểm tra kích thước
 
 print()
 
@@ -54,7 +54,7 @@ print("="*60)
 print("KIỂU DỮ LIỆU")
 print("="*60)
 
-print(df.dtypes)
+print(df.dtypes) #--- kiểm tra kiểu dữ liệu
 
 print()
 
@@ -64,7 +64,7 @@ print("="*60)
 print("GIÁ TRỊ KHUYẾT")
 print("="*60)
 
-print(df.isnull().sum())
+print(df.isnull().sum()) #--- kiểm tra dữ liệu khuyết
 
 print()
 
@@ -74,7 +74,7 @@ print("="*60)
 print("DỮ LIỆU TRÙNG LẶP")
 print("="*60)
 
-print(df.duplicated().sum())
+print(df.duplicated().sum()) #--- kiểm tra dữ liệu trùng
 
 # ==========================================
 # BƯỚC 4. THỐNG KÊ MÔ TẢ DỮ LIỆU
